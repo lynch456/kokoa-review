@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
+  margin-left: 25px;
 }
 .title-icons {
   display: flex;
@@ -15,4 +16,24 @@
 }
 .icon-setting {
   margin-right: 25px;
+}
+.friends-screen__info {
+  text-align: center;
+  background-color: rgb(241, 239, 239, 0.5);
+  padding: 15px 0px;
+  margin: 0px 25px;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  margin-left: 6px;
+  bottom: 16.3px;
+}
+.fa-info-circle,
+.fa-chevron-right {
+  opacity: 0.3;
 }
