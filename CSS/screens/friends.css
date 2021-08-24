@@ -1,0 +1,18 @@
+.friends-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.title-icons {
+  display: flex;
+}
+.icon-search {
+  margin-right: 30px;
+}
+.icon-music {
+  margin-right: 30px;
+}
+.icon-setting {
+  margin-right: 25px;
+}
