@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
-  margin-top: 20px;
   margin-left: 25px;
+  padding-top: 40px;
 }
 .title-icons {
   display: flex;
