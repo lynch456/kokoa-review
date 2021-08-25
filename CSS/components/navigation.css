@@ -5,13 +5,44 @@
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  position: fixed;
   padding: 20px 45px;
-  background-color: rgba(0, 0, 0, 0.04);
-  border-top: 1px solid rgb(235, 232, 232);
+  background-color: rgba(241, 239, 239, 0.5);
+  border-top: 1px solid rgb(0, 0, 0, 0.1);
   bottom: 0%;
-  z-index: 1;
 }
 .navigation-bar i {
   cursor: pointer;
+}
+.nav-link {
+  position: relative;
+}
+
+.red-circle {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+}
+.red-circle__ellipsis {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 27px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
 }
