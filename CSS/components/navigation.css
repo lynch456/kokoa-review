@@ -1,0 +1,16 @@
+.navigation-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  padding: 20px 45px;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-top: 1px solid rgb(235, 232, 232);
+  bottom: 0%;
+}
+.navigation-bar i {
+  cursor: pointer;
+}

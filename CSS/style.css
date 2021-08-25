@@ -1,7 +1,13 @@
 @import "components/status-bar.css";
 @import "components/welcome-header.css";
 @import "components/login-form.css";
+@import "components/navigation.css";
 
 @import "screens/friends.css";
 
 @import "every.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
