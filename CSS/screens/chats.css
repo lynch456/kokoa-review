@@ -1,0 +1,40 @@
+.chats-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 25px;
+  padding-top: 40px;
+}
+.friends-name {
+  display: flex;
+  align-items: center;
+
+  margin: 15px 25px;
+}
+.chats-freinds__name {
+  display: flex;
+}
+.chats-friends__info {
+  opacity: 0.3;
+}
+.message-clock {
+}
+.message-time {
+  display: block;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.badge {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: red;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
