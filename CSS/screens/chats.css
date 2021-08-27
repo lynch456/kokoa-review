@@ -1,17 +1,11 @@
 .chats-screen__main {
   margin-top: 15px;
 }
-.chats-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 20px;
-  margin-left: 25px;
-  padding-top: 40px;
-}
+
 .friends-name {
+  cursor: pointer;
   justify-content: space-between;
-  margin: 0px 25px;
+  padding: 0px 25px;
 }
 .friends-name,
 .friends-name__column:first-child {
@@ -34,6 +28,7 @@ chats-freinds__name {
   align-items: flex-end;
 }
 .message-time {
+  margin-bottom: 3px;
   opacity: 0.3;
   display: block;
 }
