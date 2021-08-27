@@ -1,3 +1,6 @@
+.chats-screen__main {
+  margin-top: 15px;
+}
 .chats-title {
   display: flex;
   align-items: center;
@@ -7,26 +10,34 @@
   padding-top: 40px;
 }
 .friends-name {
+  justify-content: space-between;
+  margin: 0px 25px;
+}
+.friends-name,
+.friends-name__column:first-child {
   display: flex;
   align-items: center;
-
-  margin: 15px 25px;
 }
-.chats-freinds__name {
+
+chats-freinds__name {
+  font-weight: 600;
   display: flex;
 }
 .chats-friends__info {
-  opacity: 0.3;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
 }
-.message-clock {
+.friends-name__column:last-child {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .message-time {
-  display: block;
-  font-weight: 600;
   opacity: 0.3;
+  display: block;
 }
 .badge {
-  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,4 +48,5 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
+  margin-left: 17px;
 }
