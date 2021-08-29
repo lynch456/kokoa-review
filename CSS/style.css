@@ -2,9 +2,11 @@
 @import "components/welcome-header.css";
 @import "components/login-form.css";
 @import "components/navigation.css";
+@import "components/Find-screen.css";
 
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/find-screen__main.css";
 
 @import "every.css";
 
