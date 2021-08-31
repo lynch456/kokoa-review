@@ -1,0 +1,39 @@
+.open-chat__list {
+  padding: 0px 25px;
+  margin: 40px 0px;
+}
+.open-chat__one {
+  font-size: 25px;
+  font-weight: 600;
+}
+.open-chat__hashtag {
+  display: flex;
+  opacity: 0.5;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.open-chat__photo {
+  display: flex;
+  align-items: center;
+}
+.open-chat__info .fan-photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.open-chat__members {
+  margin-left: 10px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.open-chat__member-status {
+  font-size: 13px;
+  color: tomato;
+}
+.divider {
+  width: 2px;
+  height: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 5px;
+  align-items: center;
+}
