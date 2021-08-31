@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0px 25px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .find-screen__column {
   display: flex;
@@ -10,6 +10,6 @@
   align-items: center;
 }
 .find-screen__menu span {
-  font-size: 17px;
+  font-size: 13px;
   margin-top: 15px;
 }

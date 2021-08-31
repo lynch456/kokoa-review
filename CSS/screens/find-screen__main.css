@@ -1,8 +1,8 @@
 .find-screen__main {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 25px 25px;
-  padding: 10px 0px;
+  margin: 10px 25px;
+  padding: 5px 0px;
 }
 .recommend-friend {
   color: rgba(0, 0, 0, 0.5);

@@ -1,10 +1,18 @@
-.open-chat__list {
-  padding: 0px 25px;
-  margin: 40px 0px;
+.open-chat__first {
+  padding: 20px 0px;
+  margin: 5px 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .open-chat__one {
   font-size: 25px;
   font-weight: 600;
+}
+.open-chat__s {
+  display: flex;
+  align-items: center;
 }
 .open-chat__hashtag {
   display: flex;
@@ -16,10 +24,13 @@
   display: flex;
   align-items: center;
 }
-.open-chat__info .fan-photo {
+.fan-photo {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+.open-chat__column {
+  padding-bottom: 15px;
 }
 .open-chat__members {
   margin-left: 10px;
@@ -36,4 +47,36 @@
   background-color: rgba(0, 0, 0, 0.4);
   margin: 0 5px;
   align-items: center;
+}
+.star-photo__like {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+}
+.open-chat__second {
+  padding: 10px 0px;
+  margin: 10px 25px;
+}
+.star-photo {
+  position: relative;
+}
+.star-photo__like-btn {
+  background-color: rgba(34, 15, 15, 0.5);
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+.fa-heart {
+  margin-top: 3px;
+}
+.star-photo__like {
+  color: white;
+}
+.open-chat__first .star-photo__like-btn span {
+  margin-left: 3px;
 }
