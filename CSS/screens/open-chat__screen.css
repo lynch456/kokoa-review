@@ -70,7 +70,9 @@
   position: absolute;
   bottom: 8px;
   left: 50px;
+  cursor: pointer;
 }
+
 .fa-heart {
   margin-top: 3px;
 }

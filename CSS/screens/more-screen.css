@@ -1,0 +1,30 @@
+.more-screen__top {
+  margin-top: 15px;
+}
+.more-screen__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.more-screen__name,
+.more-name__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.more-friends__info {
+  opacity: 0.5;
+}
+
+.more-screen__line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.more-screen__line1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
