@@ -31,3 +31,39 @@
 .more-screen__line1 i {
   margin-bottom: 6px;
 }
+.more-screen__line2 {
+  display: flex;
+  padding: 0px 25px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.more-screen__linetwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.more-screen__linetwo:last-child {
+  justify-content: baseline;
+}
+.more-screen__suggestions {
+  align-items: center;
+  margin: 15px 25px;
+  padding: 15px 0px;
+  font-weight: 600;
+  font-size: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.more-screen__title {
+  opacity: 1;
+  font-weight: 400;
+}
+.suggestion-icon {
+  display: flex;
+  margin-top: 15px;
+}
+.suggestion-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
