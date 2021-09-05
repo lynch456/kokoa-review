@@ -1,0 +1,22 @@
+.header-title h1 {
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.setting-screen__first {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 0px 25px;
+}
+.setting-screen__first span {
+  margin-left: 20px;
+}
+.setting-screen__first:last-child {
+  opacity: 0.4;
+}
+.version-text {
+  display: flex;
+  justify-content: space-between;
+}
