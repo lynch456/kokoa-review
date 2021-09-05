@@ -1,0 +1,9 @@
+.red-circle__ellipsis2 {
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
