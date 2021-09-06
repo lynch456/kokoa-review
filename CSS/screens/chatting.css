@@ -29,13 +29,16 @@
 .chatting-name {
   margin-left: 50px;
 }
+
 .chatting-screen__main {
-  display: flex;
-  padding-top: 100px;
   flex-direction: column;
   align-items: center;
+  display: flex;
+  padding-top: 180px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.chatting-screen__main .chatting-date {
+.chatting-date {
   background-color: #92a4b2;
   color: white;
   padding: 15px;
@@ -43,15 +46,62 @@
   border-radius: 25px;
   margin-bottom: 25px;
   margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 .messge-row {
   display: flex;
+  justify-content: flex-start;
+  margin-top: 35px;
+  width: 100%;
 }
 .messge-row img {
   width: 70px;
   height: 70px;
   border-radius: 30px;
+}
+.messge-row__column {
+  margin-left: 10px;
+}
+.message-box {
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+.message-text {
+  font-weight: 600;
+  background-color: white;
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+  width: 25px;
+  height: 26px;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+}
+.message-time {
+  margin-left: 10px;
+}
+.message-row__my {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.message-text__mine {
+  background-color: yellow;
+  width: 120px;
+  height: 26px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 13px;
+  border-radius: 20px;
+  border-top-right-radius: 0%;
+  margin-left: 10px;
+}
+.message-row__mine-content {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
