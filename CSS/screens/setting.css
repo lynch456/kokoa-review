@@ -5,18 +5,41 @@
 .setting-screen__first {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-size: 25px;
-  padding: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin: 0px 25px;
 }
 .setting-screen__first span {
   margin-left: 20px;
 }
-.setting-screen__first:last-child {
-  opacity: 0.4;
+.setting-screen__column {
+  opacity: 0.5;
 }
-.version-text {
+.setting-screen__second {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 25px;
+  padding: 20px 0px;
+  margin: 0px 25px;
+  position: relative;
+}
+.setting-screen__second span {
+  margin-left: 20px;
+}
+.red-dot {
+  position: absolute;
+  text-align: center;
+  background-color: red;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  margin-left: 10px;
+  bottom: 20px;
+  left: 150px;
 }
