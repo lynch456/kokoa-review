@@ -14,6 +14,7 @@
   top: 10px;
   z-index: 1;
 }
+
 .chatting-title {
   align-items: center;
   display: flex;
@@ -104,4 +105,58 @@
   align-items: flex-end;
   flex-direction: row-reverse;
   justify-content: flex-end;
+}
+.reply {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply i {
+  opacity: 0.3;
+}
+.reply .reply__column:first-child {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+  margin-right: 15px;
+}
+.reply input {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -20px;
+  top: 3px;
+}
+.reply__column:last-child > i {
+  right: 40px;
+  top: 10px;
+  font-size: 20px;
+}
+.reply__column button {
+  background-color: yellow;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.reply__column button i {
+  opacity: 1;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
 }
