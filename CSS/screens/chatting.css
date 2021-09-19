@@ -48,11 +48,23 @@
   margin-bottom: 25px;
   margin-top: 100px;
 }
+@keyframes message {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 .messge-row {
   display: flex;
   justify-content: flex-start;
   margin-top: 35px;
   width: 100%;
+  animation: message 0.5s ease-in-out;
 }
 .messge-row img {
   width: 70px;
@@ -75,27 +87,42 @@
   width: 25px;
   height: 26px;
   font-size: 20px;
-  text-align: center;
-  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 .message-time {
   margin-left: 10px;
+}
+@keyframes message-my {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 .message-row__my {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-top: 35px;
+  animation: message-my 0.5s ease-in-out;
 }
-
 .message-text__mine {
   background-color: yellow;
   width: 120px;
   height: 26px;
   font-size: 20px;
   font-weight: 600;
-  text-align: center;
-  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   border-radius: 20px;
   border-top-right-radius: 0%;
   margin-left: 10px;
@@ -131,18 +158,21 @@
 }
 .reply input {
   padding: 12px;
-  width: 100%;
+  width: 90%;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -20px;
+  right: 15px;
   top: 3px;
+  cursor: pointer;
+  font-size: 15px;
 }
 .reply__column:last-child > i {
-  right: 40px;
+  right: 60px;
   top: 10px;
   font-size: 20px;
 }
@@ -159,4 +189,18 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+.reply .reply__column:first-child,
+.reply .fa-smile,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply:focus-within input {
+  width: 85vw;
+  transform: translateX(-10%);
 }

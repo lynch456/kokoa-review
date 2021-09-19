@@ -14,6 +14,9 @@
   display: flex;
   align-items: center;
 }
+.open-chat__s img {
+  margin-bottom: 11px;
+}
 .open-chat__hashtag {
   display: flex;
   opacity: 0.5;
@@ -71,6 +74,23 @@
   bottom: 8px;
   left: 50px;
   cursor: pointer;
+}
+@keyframes heart-beat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.star-photo__like-btn i:hover {
+  animation: heart-beat 1s linear infinite;
 }
 
 .fa-heart {

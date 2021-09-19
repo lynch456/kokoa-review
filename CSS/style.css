@@ -4,6 +4,8 @@
 @import "components/navigation.css";
 @import "components/Find-screen.css";
 @import "components/red-cicle__top.css";
+@import "components/no-mobile.css";
+@import "components/start.css";
 
 @import "screens/friends.css";
 @import "screens/chats.css";
@@ -13,10 +15,23 @@
 @import "screens/setting.css";
 @import "screens/chatting.css";
 
-@import "every.css";
 @import "reset.css";
 
+@font-face {
+  font-family: CookieRun;
+  src: url(/font/CookieRun\ Bold.ttf);
+}
 * {
   margin: 0;
   padding: 0;
+}
+h1,
+span,
+a,
+div,
+input {
+  font-family: CookieRun;
+}
+a {
+  text-decoration: none;
 }

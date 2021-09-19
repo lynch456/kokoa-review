@@ -1,14 +1,19 @@
-.Welcome-header{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    margin-bottom: 10px;
+.Welcome-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
-.info-tetx{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    opacity: 0.6;
-    padding: 0px 30px;
-    text-align: center;
+.Welcome-header h1 {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.info-text {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  opacity: 0.3;
+  padding: 0px 30px;
+  margin-top: 20px;
+  text-align: center;
 }

@@ -1,0 +1,35 @@
+@keyframes hide-screen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.start-screen {
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  animation: hide-screen 1s ease forwards;
+  animation-delay: 0.95s;
+}
+@keyframes kokoa-icon {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+}
+.start-screen i {
+  animation: kokoa-icon 1s ease-in-out;
+}
