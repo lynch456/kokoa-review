@@ -8,6 +8,7 @@
   }
 }
 .start-screen {
+  z-index: 3;
   background-color: yellow;
   height: 100vh;
   width: 100vw;
