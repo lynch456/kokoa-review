@@ -18,19 +18,20 @@
 @import "reset.css";
 
 @font-face {
-  font-family: CookieRun;
-  src: url(/font/CookieRun\ Bold.ttf);
+  font-family: "CookieRun";
+  src: url(/font/CookieRun\ Bold.ttf) format("truetype");
+}
+body,
+a,
+input,
+span,
+h1,
+div {
+  font-family: "CookieRun";
 }
 * {
   margin: 0;
   padding: 0;
-}
-h1,
-span,
-a,
-div,
-input {
-  font-family: CookieRun;
 }
 a {
   text-decoration: none;
