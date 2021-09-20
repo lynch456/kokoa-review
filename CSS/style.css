@@ -24,16 +24,10 @@
   font-weight: normal;
   font-style: normal;
 }
-<<<<<<< Updated upstream
 body,
 input {
-  font-family: "CookieRun";
-=======
-body {
   font-family: "CookieRunOTF-Bold";
->>>>>>> Stashed changes
 }
-
 * {
   margin: 0;
   padding: 0;
