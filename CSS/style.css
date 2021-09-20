@@ -18,12 +18,20 @@
 @import "reset.css";
 
 @font-face {
-  font-family: "CookieRun";
-  src: url(/font/CookieRun\ Bold.ttf) format("truetype");
+  font-family: "CookieRunOTF-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+<<<<<<< Updated upstream
 body,
 input {
   font-family: "CookieRun";
+=======
+body {
+  font-family: "CookieRunOTF-Bold";
+>>>>>>> Stashed changes
 }
 
 * {
