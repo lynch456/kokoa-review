@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 @import "components/status-bar.css";
 @import "components/welcome-header.css";
 @import "components/login-form.css";
@@ -17,13 +18,9 @@
 
 @import "reset.css";
 
-@font-face {
-  font-family: CookieRun;
-  src: url(/font/CookieRun\ Bold.ttf) format("truetype");
-}
 body,
 input {
-  font-family: CookieRun;
+  font-family: "Balsamiq Sans", cursive;
 }
 
 * {
