@@ -18,15 +18,12 @@
 @import "reset.css";
 
 @font-face {
-  font-family: CookieRun;
+  font-family: "CookieRun";
   src: url(/font/CookieRun\ Bold.ttf) format("truetype");
 }
-a,
-span,
-div,
-h1,
+body,
 input {
-  font-family: CookieRun;
+  font-family: "CookieRun";
 }
 
 * {
