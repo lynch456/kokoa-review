@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 @import "components/status-bar.css";
 @import "components/welcome-header.css";
 @import "components/login-form.css";
@@ -17,16 +18,9 @@
 
 @import "reset.css";
 
-@font-face {
-  font-family: "CookieRunOTF-Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 body,
 input {
-  font-family: "CookieRunOTF-Bold";
+  font-family: "Balsamiq Sans", cursive;
 }
 * {
   margin: 0;
